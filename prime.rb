@@ -1,5 +1,5 @@
 # Add  code here!
-def prime(array)
+def prime(number)
   range = (2..(number-1)).to_a 
   check = true 
   if number < 2 
