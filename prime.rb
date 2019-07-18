@@ -2,9 +2,9 @@ require 'prime'
 def prime?(number)
   Prime.prime(number)
   if number == Prime
-    "true"
+    puts "true"
   else
-    "false"
+    puts "false"
   end
 end
     
