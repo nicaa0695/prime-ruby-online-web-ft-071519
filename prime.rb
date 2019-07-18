@@ -1,12 +1,10 @@
 def prime?(number)
-  number.include? |number| 
-  number == prime
-  if 
-    number == prime
-    return "true"
-  else
-    return "false"
-  end
+Prime.prime?
+if number == prime
+  puts "true"
+else
+  puts "false"
+end
 end
     
     
