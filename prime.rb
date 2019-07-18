@@ -1,17 +1,12 @@
 def prime?(number)
-  range = (2..(number-1)).to_a 
-  check = true 
-  if number < 2 
-   check false 
+  number.include? |number| 
+  number == prime
+  if 
+    number == prime
+    return "true"
   else
-    range.each do |x|
-    end
-      if number % x == 0 
-        check false 
-        break
-      end
-    end
-  end 
-    puts check
+    return "false"
+  end
 end
+    
     
